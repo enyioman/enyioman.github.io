@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://enyioman.github.io/cleanfolio',
+  title: 'EN.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Enyioma Nwadibia',
+  role: 'Cloud DevOps Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am a motivated IT Professional passionate about the automation of IT processes. Adept at infrastructure automation, build engineering, workload optimization, configuration management and continuous delivery.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/enyioman/',
+    github: 'https://github.com/enyioman',
   },
 }
 
@@ -21,51 +21,74 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Infrastructure Automation',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Automate the build of a 3-Tier Architecture Solution for consistency, scalabity and reusability.',
+    stack: ['Terraform', 'Ansible', 'AWS'],
+    sourceCode: 'https://github.com/enyioman/project19',
+    livePreview: 'https://gitlab.com/enyioma/terraform-project18',
+  },
+  {
+    name: 'CI/CD Pipeline',
+    description:
+      'A Continous Integration/Continous Delivery Infracstructure for a smoother path to production and efficiency.',
+    stack: ['Jenkins', 'Ansible', 'Artifactory', 'AWS'],
+    sourceCode: 'https://github.com/enyioman/project14',
+    livePreview: 'https://github.com/enyioman/project14/blob/main/project14.md',
+  },
+  {
+    name: '3-Tier Cloud Solution',
+    description:
+      'A robust, secured and highly scalable Cloud Infrastructure. Offering cost-savings and faster time to market.',
+    stack: ['AWS'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Client-Server DB Solution',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Configured two database servers with different roles. Enabling efficient resource delivery and low-cost maintenance.',
+    stack: ['AWS', 'MySQL'],
+    sourceCode: 'https://github.com/enyioman/project5',
+    livePreview: 'https://github.com/enyioman/project5/blob/main/project5.md',
   },
   {
-    name: 'Project 3',
+    name: 'MERN Stack Deployment',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Deploy any application stack to Cloud for reduced IT costs, business continuity and scalability.',
+    stack: ['AWS'],
+    sourceCode: 'https://github.com/enyioman/Project3',
+    livePreview: 'https://github.com/enyioman/Project3/blob/main/project3.md',
+  },
+  {
+    name: 'Configuration Management',
+    description:
+      'For consistency of systems and software, an entire application environment can be orchestrated with Ansible.',
+    stack: ['AWS', 'Ansible', 'Jenkins'],
+    sourceCode: 'https://github.com/enyioman/project11',
+    livePreview: 'https://github.com/enyioman/project11/blob/main/project11.md',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'AWS',
+  'Terraform',
+  'Docker',
+  'Ansible',
+  'Jenkins',
+  'Artifactory',
+  'Python',
+  'Shell Scripting',
+  'Linux',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'enyiomanwadibia@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
