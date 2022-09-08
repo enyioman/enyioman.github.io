@@ -10,7 +10,7 @@ const about = {
   role: 'Cloud DevOps Engineer',
   description:
     'I am a motivated IT Professional passionate about the automation of IT processes. Adept at infrastructure automation, build engineering, workload optimization, configuration management and continuous delivery.',
-  resume: 'https://drive.google.com/file/d/1N1bRHUFiumvSWCls-xdII5xeEgd2YwJx/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1crkcQpIyD59bLiePcSca2_rv0GINy-s5/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/enyioman/',
     github: 'https://github.com/enyioman',
