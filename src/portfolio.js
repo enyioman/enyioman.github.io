@@ -81,6 +81,7 @@ const skills = [
   'Jenkins',
   'Sonarqube',
   'Vault',
+  'Artifactory',
   'Python',
   'Shell/Bash Scripting',
   'Linux',
