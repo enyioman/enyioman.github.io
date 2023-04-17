@@ -74,13 +74,15 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'AWS',
+  'GCP',
   'Terraform',
   'Docker',
   'Ansible',
   'Jenkins',
-  'Artifactory',
+  'Sonarqube',
+  'Vault',
   'Python',
-  'Shell Scripting',
+  'Shell/Bash Scripting',
   'Linux',
   'Git',
   
