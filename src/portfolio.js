@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Enyioma Nwadibia',
-  role: 'Cloud DevOps Engineer',
+  role: 'Cloud & DevOps Engineer',
   description:
     'I am a motivated IT Professional passionate about the automation of IT processes. Adept at infrastructure automation, build engineering, workload optimization, configuration management and continuous delivery.',
   resume: 'https://drive.google.com/file/d/1NrtwUUaMB7ucg21DBnJBJ2jNtZZ19wFB/view?usp=sharing',
@@ -75,15 +75,16 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'AWS',
   'GCP',
-  'Terraform',
+  'Kubernetes',
   'Docker',
-  'Ansible',
+  'Terraform',
   'Jenkins',
+  'Ansible',
   'Sonarqube',
   'Vault',
   'Artifactory',
   'Python',
-  'Shell/Bash Scripting',
+  'Bash Scripting',
   'Linux',
   'Git',
   
@@ -91,7 +92,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'enyiomanwadibia@gmail.com',
+  email: 'hello@zaiany.tech',
 }
 
 export { header, about, projects, skills, contact }
