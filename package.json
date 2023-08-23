@@ -2,6 +2,7 @@
   "homepage": "https://enyioman.github.io",
   "name": "cleanfolio",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start --openssl-legacy-provider",
     "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test --openssl-legacy-provider",
