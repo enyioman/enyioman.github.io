@@ -84,7 +84,7 @@ const skills = [
   'Vault',
   'Artifactory',
   'Python',
-  'Shell/Bash Scripting',
+  'Shell Scripting',
   'Linux',
   'Git',
   
