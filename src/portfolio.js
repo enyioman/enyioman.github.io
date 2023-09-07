@@ -9,7 +9,7 @@ const about = {
   name: 'Enyioma Nwadibia',
   role: 'Cloud & DevOps Engineer',
   description:
-    'I am a motivated IT Professional passionate about the automation of IT processes. Adept at infrastructure automation, build engineering, workload optimization, configuration management and continuous delivery.',
+    'I am a seasoned Cloud & DevOps Engineer with over 4 years of experience in the field. I have worked with various organizations helping them streamline their software development and IT operations processes. I have a passion for automation, continuous integration, and continuous delivery. I have also written extensively on these topics as my contribution to the growth of the Tech community. My expertise includes containerization, orchestration, cloud infrastructure, and automation. I am committed to promoting best practices in DevOps, fostering collaboration between development and operations teams, and driving efficiency throughout the software development lifecycle. When not working on DevOps initiatives, I enjoys writing, reading, music and traveling.',
   resume: 'https://drive.google.com/file/d/1h0NxUwVDBwJPpBOCrHc_mneP2XDD1ZTU/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/enyioman/',
